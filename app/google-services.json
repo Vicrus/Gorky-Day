@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "212981149863",
+    "firebase_url": "https://gorkiy-day.firebaseio.com",
+    "project_id": "gorkiy-day",
+    "storage_bucket": "gorkiy-day.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212981149863:android:26ad343463816834",
+        "android_client_info": {
+          "package_name": "app.team.gorkiy.gorkiyday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212981149863-cb8649usfeqtkqac7qebphg23navnq8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.team.gorkiy.gorkiyday",
+            "certificate_hash": "6a4a3d8ec1073d9643ff319997089334642c24bd"
+          }
+        },
+        {
+          "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzZf_8vKXkhufsfKqkSHBgTAT25U6-jhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212981149863:android:87fcb66cc6ca320a",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212981149863-l9pofbq8q3i2ssa4focq59cubjuo1j02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.quickstart.auth",
+            "certificate_hash": "6a4a3d8ec1073d9643ff319997089334642c24bd"
+          }
+        },
+        {
+          "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzZf_8vKXkhufsfKqkSHBgTAT25U6-jhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212981149863:android:2e2d6c71016b719d",
+        "android_client_info": {
+          "package_name": "app.team.gorkiy.gorky_day"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212981149863-ko08itcdh60j8eqob68oh8n6molmuo4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.team.gorkiy.gorky_day",
+            "certificate_hash": "6a4a3d8ec1073d9643ff319997089334642c24bd"
+          }
+        },
+        {
+          "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzZf_8vKXkhufsfKqkSHBgTAT25U6-jhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212981149863:android:c2ac8268558fc885",
+        "android_client_info": {
+          "package_name": "app.team.gorky.gorky_day"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212981149863-ttjraitvh37vprkmbnf92rhlhgt2p1pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.team.gorky.gorky_day",
+            "certificate_hash": "6a4a3d8ec1073d9643ff319997089334642c24bd"
+          }
+        },
+        {
+          "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzZf_8vKXkhufsfKqkSHBgTAT25U6-jhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212981149863-t7lcgq9osv8thb3pi5spk4313d9mhjpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
