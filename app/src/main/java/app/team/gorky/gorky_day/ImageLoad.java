@@ -197,12 +197,19 @@ public class ImageLoad{
     public Bitmap getBitmapFromMemCache(String key) {
         return mMemoryCache.get(key);
     }*/
+  class mMarker{
+      String name;
+      LatLng latLng;
+  }
+
   private static final String TAG = "myLog";
+  public ArrayList<mMarker> markers = new ArrayList<mMarker>();
   private ArrayList<String> nameWebImages = new ArrayList<String>();
   public  ArrayList<String> cacheNames    = new ArrayList<String>();
-  public  ArrayList<LatLng> pointImages   = new ArrayList<LatLng>();
   private ArrayList<String> nameForLoad   = new ArrayList<String>();
   private LruCache<String, Bitmap> mMemoryCache;
+
+
   private boolean run_ = true;
 
   ImageLoad(){
@@ -249,10 +256,13 @@ public class ImageLoad{
                 for (DataSnapshot imageSnapshot : dataSnapshot.getChildren()) {
                     //Log.i(TAG, imageSnapshot.child("name").getValue(String.class));
                     nameWebImages.add(imageSnapshot.child("name").getValue(String.class));
+                    mMarker nmarker = new mMarker();
+                    nmarker.name = imageSnapshot.child("name").getValue(String.class);
                     DataSnapshot pointsSnapshot = imageSnapshot.child("point");
                     double latt = pointsSnapshot.child("lat").getValue(Double.class);
                     double logt = pointsSnapshot.child("log").getValue(Double.class);
-                    pointImages.add(new LatLng(latt, logt));
+                    nmarker.latLng = new LatLng(latt, logt);
+                    markers.add(nmarker);
                     //Log.i(TAG, Double.toString(latt) + " " + Double.toString(logt));
                 }
                 checkImages();
@@ -324,6 +334,14 @@ public class ImageLoad{
                 conn.disconnect();
         }
         return bitmap;
+    }
+    public LatLng getPoint(String key){
+        for(int i = 0; i<markers.size(); i++){
+            if(markers.get(i).name == key){
+                return markers.get(i).latLng;
+            }
+        }
+        return null;
     }
 
     public void addBitmapToMemoryCache(String key, Bitmap bitmap) {

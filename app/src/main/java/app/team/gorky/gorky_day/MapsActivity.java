@@ -183,7 +183,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                                             String key = imgload.cacheNames.get(l);
                                             Bitmap im = Bitmap.createScaledBitmap(imgload.getBitmapFromMemCache(key), 150, 150, false);
                                             mMap.addMarker(new MarkerOptions()
-                                                    .position(imgload.pointImages.get(l))
+                                                    .position(imgload.getPoint(imgload.cacheNames.get(l)))
                                                     .flat(true)
                                                     .icon(BitmapDescriptorFactory.fromBitmap(im)));
                                         }
